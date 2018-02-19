@@ -1,0 +1,23 @@
+/*
+*
+* LAYOUT SECTIONS DASHBOARD
+*
+*/
+.l-section{
+
+    &__dashboard{
+        padding: 25px 20px;
+
+            &.is-home{
+                padding: 50px 20px;         
+            }
+
+            &.is-inner{
+                padding: 40px 20px; 
+            }
+    }
+
+    &__grey{
+        background: #eaeff8;
+    }
+}

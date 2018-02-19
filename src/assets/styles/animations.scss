@@ -1,0 +1,192 @@
+/*=============================================
+=            Animations           =
+=============================================*/
+
+.transitionDuration-xxl {
+    -webkit-transition-duration: .7s;
+    transition-duration: .7s
+}
+
+.transitionDuration-xl {
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s
+}
+
+.transitionDuration-l {
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s
+}
+
+.transitionDuration-m {
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s
+}
+
+.transitionDuration-s {
+    -webkit-transition-duration: 80ms;
+    transition-duration: 80ms
+}
+
+
+.transitionTimingFunction-linear {
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear
+}
+
+.transitionTimingFunction-ease {
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease
+}
+
+.transitionTimingFunction-ease-in {
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in
+}
+
+.transitionTimingFunction-ease-out {
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out
+}
+
+.transitionTimingFunction-ease-in-out {
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out
+}
+
+
+.transitionTimingFunction-cb--scaleOut {
+    -webkit-transition-timing-function: cubic-bezier(.165, .84, .44, 1);
+    transition-timing-function: cubic-bezier(.165, .84, .44, 1)
+}
+
+.transitionTimingFunction-cb--scaleIn {
+    -webkit-transition-timing-function: cubic-bezier(0, .89, .44, 1);
+    transition-timing-function: cubic-bezier(0, .89, .44, 1)
+}
+
+.transitionTimingFunction-cv-easeOutCircular {
+    -webkit-transition-timing-function: cubic-bezier(.075, .82, .165, 1);
+    transition-timing-function: cubic-bezier(.075, .82, .165, 1)
+}
+
+.transitionTimingFunction-cv-easeInOutBack {
+    -webkit-transition-timing-function: cubic-bezier(.68, -.55, .265, 1.55);
+    transition-timing-function: cubic-bezier(.68, -.55, .265, 1.55)
+}
+
+.transitionTimingFunction-cb--scaleUp {
+    -webkit-transition-timing-function: cubic-bezier(.68, -.55, .265, 1.55);
+    transition-timing-function: cubic-bezier(.68, -.55, .265, 1.55)
+}
+
+.transitionDelay-xxl {
+    -webkit-transition-delay: .7s;
+    transition-delay: .7s
+}
+
+.transitionDelay-xl {
+    -webkit-transition-delay: .5s;
+    transition-delay: .5s
+}
+
+.transitionDelay-l {
+    -webkit-transition-delay: .3s;
+    transition-delay: .3s
+}
+
+.transitionDelay-m {
+    -webkit-transition-delay: .15s;
+    transition-delay: .15s
+}
+
+.transitionDelay-s {
+    -webkit-transition-delay: 80ms;
+    transition-delay: 80ms
+}
+
+.transitionDelay-0 {
+    -webkit-transition-delay: 0;
+    transition-delay: 0
+}
+
+.scaleUp--hover:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+.animation-spin{
+    -webkit-animation: spin .8s infinite linear;
+    animation: spin .8s infinite linear
+}
+
+.animation-rotate {
+    -webkit-animation: spin 3s 1s infinite cubic-bezier(.075, .82, .165, 1);
+    animation: spin 3s 1s infinite cubic-bezier(.075, .82, .165, 1)
+}
+
+.animation-bounce {
+    -webkit-animation: bounce 1.8s 4 cubic-bezier(.075, .82, .165, 1);
+    animation: bounce 1.8s 4 cubic-bezier(.075, .82, .165, 1)
+}
+
+.transitionProperty-all {
+    -webkit-transition-property: all;
+    transition-property: all
+}
+
+.transitionProperty-inherit {
+    -webkit-transition-property: inherit;
+    transition-property: inherit
+}
+
+.transitionProperty-color {
+    -webkit-transition-property: color;
+    transition-property: color
+}
+
+.transitionProperty-background {
+    -webkit-transition-property: background;
+    transition-property: background
+}
+
+.transitionProperty-width {
+    -webkit-transition-property: width;
+    transition-property: width
+}
+
+.transitionProperty-height {
+    -webkit-transition-property: height;
+    transition-property: height
+}
+
+.transitionProperty-top {
+    -webkit-transition-property: top;
+    transition-property: top
+}
+
+.transitionProperty-right {
+    -webkit-transition-property: right;
+    transition-property: right
+}
+
+.transitionProperty-bottom {
+    -webkit-transition-property: bottom;
+    transition-property: bottom
+}
+
+.transitionProperty-left {
+    -webkit-transition-property: left;
+    transition-property: left
+}
+
+.transitionProperty-scale {
+    -webkit-transition-property: scale;
+    transition-property: scale
+}
+
+.transitionProperty-transform {
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform
+}

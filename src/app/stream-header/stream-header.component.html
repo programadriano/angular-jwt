@@ -1,0 +1,24 @@
+<section class="l-bar-header">
+	<nav class="nav">
+		<div class="nav-left">
+			<p class="nav-item name">Angular Auth JWT</p>
+		</div>
+
+
+
+		<div class="nav-right nav-menu">
+			<a class="nav-item" (click)="logout()" title="Sair do Stream">
+				<div class="scaleUp--hover transitionDuration-xl transitionTimingFunction-cb--scaleIn">
+					<div class="close">
+						<svg class="close__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2"
+						 stroke-linecap="round" stroke-linejoin="round">
+							<line x1="18" y1="6" x2="6" y2="18" />
+							<line x1="6" y1="6" x2="18" y2="18" />
+						</svg>
+					</div>
+				</div>
+				<span class="nav-item__logout">{{user}}</span>
+			</a>
+		</div>
+	</nav>
+</section>

@@ -1,0 +1,39 @@
+﻿@font-face {
+    font-family: "VenturaEdding";
+    src: url("ventura/VenturaEdding-Bold.eot");
+    src: url("ventura/VenturaEdding-Bold.eot?#iefix") format("embedded-opentype"),
+         url("ventura/VenturaEdding-Bold.woff") format("woff"),
+         url("ventura/VenturaEdding-Bold.ttf")  format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FaktProSoft";
+    src: url("fakt-soft/FaktSoftPro-Blond.eot");
+    src: url("fakt-soft/FaktSoftPro-Blond.eot?#iefix") format("embedded-opentype"),
+         url("fakt-soft/FaktSoftPro-Blond.woff") format("woff"),
+         url("fakt-soft/FaktSoftPro-Blond.ttf")  format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FaktProSoft";
+    src: url("fakt-soft/FaktSoftPro-Normal.eot");
+    src: url("fakt-soft/FaktSoftPro-Normal.eot?#iefix") format("embedded-opentype"),
+         url("fakt-soft/FaktSoftPro-Normal.woff") format("woff"),
+         url("fakt-soft/FaktSoftPro-Normal.ttf")  format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FaktProSoft";
+    src: url("fakt-soft/FaktSoftPro-Medium.eot");
+    src: url("fakt-soft/FaktSoftPro-Medium.eot?#iefix") format("embedded-opentype"),
+         url("fakt-soft/FaktSoftPro-Medium.woff") format("woff"),
+         url("fakt-soft/FaktSoftPro-Medium.ttf")  format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}

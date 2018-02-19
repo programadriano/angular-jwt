@@ -1,0 +1,213 @@
+// @import 'src/assets/styles/variables.scss';
+/**
+*
+* BOX
+*
+*/
+.cp-box{
+    position: relative;
+    /*margin-bottom: 20px;*/
+
+    a, div{
+        border-radius: 10px;
+        height: 190px;
+    }
+
+    a{
+        -webkit-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); 
+      
+            &:hover{
+                z-index: 10;
+                box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.4);
+                border:#FFF;
+            }
+    }
+     
+    &__title{
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 25px;
+    }     
+
+    &__description {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 19px;
+        max-width: 220px;
+        padding-top: 15px; 
+    }
+
+    &__note{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 500;
+        max-width: 255px;
+        font-size: 10px;
+        line-height: 19px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    &__single-image{
+        -webkit-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+        box-shadow: 0px 0px 30px -5px transparent;
+        border: 2px solid #E7E7E9;
+        border-radius: 8px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        img{
+            position: absolute;
+            top: -45px;
+            left: calc(50% - 99px / 2); 
+        }
+
+        p{
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 14px;
+            color: #000000;
+            line-height: 17px;
+            padding-top: 60px;
+            text-transform: uppercase;
+            max-width: 130px;
+            margin: 0 auto;
+        }
+
+        &:hover{
+            background: #FFFFFF;
+            box-shadow: 0px 22px 30px -5px rgba(0, 0, 0, 0.3);
+            border-color: white;
+        }   
+
+    }
+
+    &--big-box{
+        height: 420px !important;
+        background: #E7E7E9;
+        position: relative;
+        color: #282A2F;
+        text-align: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        overflow: hidden;       
+    }
+
+    .small-box{
+        border: 2px solid #E7E7E9;
+        text-align: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; 
+    }
+    
+    .white-color {
+        background-color: #FFF;
+    }
+
+    .grey-color {
+        background-color: #E7E7E9;
+
+            &:hover{
+                cursor:not-allowed;
+            }
+    }
+
+    .bg-image{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(https://extension.pixelthrone.info/wp-content/themes/theme__v2/theme/extension-v2/assets/images/theme/home__offers_refund_img_1.png);
+        background-position: 45% 50px;
+        background-repeat: no-repeat;
+    }
+
+    .bg-icon{
+        background: transparent url(https://extension.pixelthrone.info/wp-content/themes/theme__v2/theme/extension-v2/assets/images/theme/home__sketch-bg.png) center center no-repeat;
+    }
+
+    .how-many{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 800;
+        margin-top: 60px;
+        font-weight: 800;
+        font-size: 150px;
+        line-height: 150px;
+        color: #282A2F;
+    }
+
+    .linear-gradient{
+        color: #FFF;
+        background: #3023ae;
+        background: -webkit-linear-gradient(-45deg, #3023ae 0%, #c86dd7 100%);
+        background: -webkit-linear-gradient(315deg, #3023ae 0%, #c86dd7 100%);
+        background: linear-gradient(135deg, #3023ae 0%, #c86dd7 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3023ae', endColorstr='#c86dd7', GradientType=1);
+        box-shadow: -16px 20px 40px 0px rgba(0, 0, 0, 0.3);
+        position: relative;
+        
+    }
+
+    &__wrap{
+        color: white;
+        text-align: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        max-width: 350px;
+        height: 100%;
+
+        &--title{
+            @extend .cp-box__title;
+            color: #FFF;
+        }
+    }
+}

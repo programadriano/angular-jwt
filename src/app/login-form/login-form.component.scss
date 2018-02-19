@@ -1,0 +1,21 @@
+.l-login{
+	.field:not(:last-child){
+		margin-bottom: 0.630rem;
+	}
+
+	label{
+		display: inline-flex;
+		color: #8492a6;
+		margin-bottom: 10px;
+	}
+
+	button{
+		margin-top: 50px;
+
+		@media screen and (max-width: 415px){
+			margin-top: 5px;
+		}
+
+	}
+}
+

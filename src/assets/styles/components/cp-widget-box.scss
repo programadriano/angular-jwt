@@ -1,0 +1,149 @@
+/**
+*
+* WIDGET BOX
+*
+*/
+.cp-widget-box{
+	background-color: #fff;
+	border: 1px solid $smoke;
+	border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+
+	&__heading {
+		height: 50px;
+		padding: 10px 18px;
+		border-bottom: 1px solid #e2e2e2;
+		position: static;
+
+		&.is-large{
+			padding: 22px 30px;
+			height: 76px;
+
+			h3{
+				@extend .fontSize--xl;
+			}
+		}
+	}
+
+	&__title{
+		@extend .fontSize--l;
+		display: inline-flex;
+		line-height: 30px;
+		margin: 0;
+		color: $black-ter;
+
+		span{
+			@extend .fontSize--s;
+			color: #ccd3da;
+
+			&:before{
+				content: '|';
+				padding: 0 10px 0 5px;
+			}
+		}
+
+		i{
+			padding: 0 10px 0 0;
+			line-height: 30px;
+			/*color:#C0CCDA;*/
+		}
+	}
+
+	&__body{
+		padding: 20px;
+		overflow: hidden;
+
+		.no-padding{
+			padding: 0;
+		}
+
+		/*Table*/
+		.table{
+			margin-bottom: 0;
+			border-color:#d3dce6;
+
+			thead, tfoot{
+				background: #f5f8fa;
+				border-bottom:1px #e7e9ed solid;
+
+				th{
+					border: none;
+					padding: 10px 30px 10px;
+					color: #7f8fa4;
+					font-weight: 400;
+					font-size: 14px;
+					border-width: 1px 0px 1px !important;
+				}
+			}
+
+			tr{
+
+				&:hover{
+					background: #fff2cf;
+					/*background: #FFD55F;*/
+				}
+
+				td{ 
+					font-size: 14px;
+					padding: 10px 30px 10px;
+					border-color: #e7e9ed;
+					vertical-align: middle;
+
+					input{
+						font-weight: 500;
+						font-family: $family-fakt;
+					}
+				}
+			}
+
+			.is-60{
+				width: 60px;
+
+				input{
+					text-align: center;
+				}
+			}
+
+			.is-135{
+				width: 135px;
+
+				input{
+					text-align: center;
+				}
+			}
+
+			.is-120{
+				width: 120px;
+
+				input{
+					text-align: center;
+				}
+			}
+
+			.checkbox{
+
+				input{
+					margin-top: 14px;
+				}
+
+				span{
+					font-size: 12px;
+					font-weight: 600;
+					position: relative; 
+					top: -3px;
+
+				}
+			}
+		}
+		/* /End Table*/
+	}
+
+	&__footer{
+		background: #eee;
+		overflow: hidden;
+		padding: 10px 17px;
+		border-top: 1px solid #e2e2e2;
+		border-bottom-right-radius: 1px;
+		border-bottom-left-radius: 1px;
+	}
+}

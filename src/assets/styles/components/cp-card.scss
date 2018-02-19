@@ -1,0 +1,73 @@
+/**
+*
+* COMPONNET CARD
+*
+*/
+.cp-card{
+    display: list-item;
+    background: #FFF;
+    padding: 50px 50px 40px;
+    text-align: center;
+    border:1px solid #e6eaee;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-transition: translate .18s,box-shadow .18s;
+    transition: translate .18s,box-shadow .18s;
+
+        &__figure{
+            margin-bottom: 25px;
+
+                &--mb-10{ 
+                    margin-bottom: 10px;
+                }
+        }
+
+        &__title{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 22px;
+            /*color: #354052;  Aqui tem que ir a variável */
+            /*padding: 0 30px;*/
+            margin-bottom: 15px;
+
+                &.is-2{
+                    font-size: 15px;
+                }
+        }
+
+        &__subtitle{
+            text-transform: uppercase;
+            font-size: 12px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        p{
+            color: #7c8996;
+            line-height:    1.3em;
+            margin-bottom: 20px;
+        }
+
+        &--small{
+            @extend .cp-card;
+            padding: 20px;
+            height: auto;
+
+            &:hover{
+                /*background: -webkit-linear-gradient(top left, rgba(71,114,217,.92), rgba(0,220,175,.92));
+                background: -o-linear-gradient(top left, rgba(71,114,217,.92), rgba(0,220,175,.92));
+                background: linear-gradient(to bottom right, rgba(71,114,217,.92), rgba(0,220,175,.92));*/
+
+                background-image: linear-gradient( 135deg, #52E5E7 0%, #130CB7 100%);
+                color: #FFF;
+                fill: #FFF;
+                stroke: #FFF;
+            }       
+        }
+
+    &:hover{
+        box-shadow: 0 10px 30px 0 rgba(0,0,0,.1);
+    }
+}
